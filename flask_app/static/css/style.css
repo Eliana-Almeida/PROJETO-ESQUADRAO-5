@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(135deg,#050816,#0b1026,#111827);
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial;
+
+    overflow: hidden;
+}
+
+.container{
+
+    width: 90%;
+    max-width: 1200px;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    backdrop-filter: blur(20px);
+
+    border-radius: 30px;
+
+    padding: 60px;
+
+    text-align: center;
+
+    box-shadow:
+    0 0 40px rgba(0,255,255,0.2);
+
+}
+
+h1{
+
+    color: cyan;
+
+    font-size: 70px;
+
+    margin-bottom: 20px;
+
+    text-shadow:
+    0 0 10px cyan,
+    0 0 30px cyan;
+
+}
+
+h2{
+
+    color: white;
+
+    font-size: 35px;
+
+    margin-bottom: 40px;
+
+}
+
+p{
+
+    color: #cbd5e1;
+
+    font-size: 22px;
+
+    line-height: 40px;
+}
+
+.tecnologias{
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.card{
+
+    background: rgba(255,255,255,0.08);
+
+    padding: 20px 30px;
+
+    border-radius: 20px;
+
+    color: white;
+
+    font-size: 20px;
+
+    transition: 0.4s;
+
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover{
+
+    transform: scale(1.1);
+
+    background: cyan;
+
+    color: black;
+
+    box-shadow:
+    0 0 20px cyan;
+
+}
+
